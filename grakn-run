@@ -1,0 +1,3 @@
+#!/bin/sh
+grakn server start $1
+exec gdb -p `cat /tmp/grakn-$1.pid`

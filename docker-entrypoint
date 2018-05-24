@@ -1,4 +1,0 @@
-#!/bin/sh
-
-grakn server start
-tail -f -n +1 $GRAKN_HOME/logs/grakn.log
